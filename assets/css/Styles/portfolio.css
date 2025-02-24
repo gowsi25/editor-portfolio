@@ -206,7 +206,7 @@ a {
 /* home */
 .home {
   padding:150px 0px 80px;
-  background: url(../../image/port-img/491362538070.jpg) no-repeat center center / cover;
+  background: url(../../Image/port-img/491362538070.jpg) no-repeat center center / cover;
 }
 
 .home-port {
@@ -250,7 +250,7 @@ a {
 /* about */
 .about {
   padding: 80px 25px;
-  background: url(../../image/port-img/banner.png) no-repeat center center / cover;
+  background: url(../../Image/port-img/banner.png) no-repeat center center / cover;
   overflow: hidden;
 }
 
@@ -384,7 +384,7 @@ a {
 /* services */
 .services {
   padding: 85px 0px;
-  background: linear-gradient(0deg, rgba(27, 4, 4, 0.5), rgba(0, 0, 0, 0.5)), url(../../image/port-img/services.jpg) no-repeat center center / cover;
+  background: linear-gradient(0deg, rgba(27, 4, 4, 0.5), rgba(0, 0, 0, 0.5)), url(../../Image/port-img/services.jpg) no-repeat center center / cover;
   color: #ffff;
 }
 
@@ -430,7 +430,7 @@ a {
 
 .details {
   padding: 85px 0px;
-  background: linear-gradient(0deg, rgba(27, 4, 4, 0.5), rgba(0, 0, 0, 0.5)), url(../../image/port-img/bd-banner.jpg) no-repeat center center / cover;
+  background: linear-gradient(0deg, rgba(27, 4, 4, 0.5), rgba(0, 0, 0, 0.5)), url(../../Image/port-img/bd-banner.jpg) no-repeat center center / cover;
   color: #edf0f2;
   text-align: center;
   font-size: 45px;
