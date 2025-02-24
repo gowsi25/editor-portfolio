@@ -1,0 +1,1327 @@
+/*--------------------------------------------------------------
+    SubPage Banner Section
+--------------------------------------------------------------*/
+
+.SubPageBnr-Section {
+    padding-top: 220px;
+    padding-bottom: 130px;
+    position: relative;
+    z-index: 5;
+    background: url(../../image/Banners/SubPage-Banner.jpg) no-repeat top center / cover;
+    min-height: 250px;
+}
+
+.SubPageBnr-Section:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background: #131313; */
+    background: rgb(5, 3, 17);
+    opacity: 0.65;
+    z-index: -1;
+}
+
+.SubPageBnr-Section .SubPageBnr-cont {
+    text-align: center;
+}
+
+.SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-title h2 {
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-Poppins);
+}
+
+.SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-title p {
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 1000px;
+    margin: 0px auto 16px;
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-Poppins);
+    display: none;
+}
+
+.SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-menu {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-menu li {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-white);
+    font-family: var(--font-Poppins);
+}
+
+.SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-menu .SpBnr-menuActiv {
+    color: var(--color-yellow);
+}
+
+/*--------------------------------------------------------------
+    End SubPage Banner Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    Partner Page Section
+--------------------------------------------------------------*/
+
+.Partner-Section.PartnerPage-Section {
+    background: var(--color-white);
+}
+
+.Partner-Section.PartnerPage-Section .sec-title-para p {
+    color: #282c36;
+}
+
+.Partner-Section.PartnerPage-Section .row {
+    justify-content: center;
+}
+
+.Partner-Section.PartnerPage-Section .Partner-Item .flip-card .flip-card-inner .flip-card-front,
+.Partner-Section.PartnerPage-Section .Partner-Item .flip-card .flip-card-inner .flip-card-back {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.Partner-Section.PartnerPage-Section .Partner-Item .flip-card .flip-card-inner .flip-card-front::before {
+    background: var(--color-charcoal-blue);
+}
+
+/*--------------------------------------------------------------
+    End Partner Page Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    Speaker Page Section
+--------------------------------------------------------------*/
+
+.Speaker-Section.SpeakerPage-Section .Speakerlist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*--------------------------------------------------------------
+    End Speaker Page Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    Agenda Page Section
+--------------------------------------------------------------*/
+
+.AgendaPage-Section .Day-Tabs {
+    border: 0 none;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding: 14px 18px;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+}
+
+.AgendaPage-Section .Day-Tabs .nav-item button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 15px 50px;
+    width: 100%;
+    transition: 0.4s;
+    color: var(--color-white);
+    background-color: var(--color-slate-gray);
+    font-family: var(--font-Montserrat);
+}
+
+.AgendaPage-Section .Day-Tabs .nav-item .active,
+.AgendaPage-Section .Day-Tabs .nav-item button:hover {
+    background: var(--color-navy-blue);
+    color: var(--color-yellow);
+}
+
+.Agenda-Section .Agenda-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px 30px;
+    margin-bottom: 30px;
+}
+
+.Agenda-Section .Agenda-card .Agda-img {
+    width: 270px;
+    height: 226px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 60px rgb(18 60 254 / 12%);
+}
+
+.Agenda-Section .Agenda-card .Agda-schedule {
+    display: flex;
+    align-items: center;
+    gap: 15px 0px;
+    padding: 30px 37px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 60px rgb(18 60 254 / 12%);
+}
+
+.Agenda-Section .Agenda-card .Agda-schedule .Agda-content {
+    padding-right: 40px;
+    margin-right: 40px;
+    border-right: 1px solid rgb(217 217 217);
+    flex: 1;
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Agda-datetime {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 24px;
+    padding: 5px 13px;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    border: 1px solid rgba(217, 217, 217, 0.89);
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: calc(100% + 12px);
+    top: 50%;
+    width: 1px;
+    height: 21px;
+    transform: translateY(-50%);
+    background: #D9D9D9;
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date i {
+    font-size: 14px;
+    color: var(--color-navy-blue);
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date .Adga-date-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(88 89 91);
+    font-family: var(--font-Montserrat);
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Agda-title h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: rgb(24 24 24);
+    margin-bottom: 16px;
+    font-family: var(--font-Montserrat);
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Adga-session {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Adga-session li {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(88 89 91);
+    font-family: var(--font-Montserrat);
+}
+
+.Agenda-Section .Agenda-card .Agda-content .Adga-session li i {
+    color: var(--color-navy-blue);
+    margin-right: 5px;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcontent {
+    min-width: 270px;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcontent .Agda-spkrtitle {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    color: var(--color-navy-blue);
+    font-family: var(--font-Montserrat);
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcontent .Agda-spkrfullview {
+    max-height: 120px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrfullview::-webkit-scrollbar {
+    width: 2px;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrfullview::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ECECEC;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrfullview .Agda-spkrcard {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 13px;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrfullview .Agda-spkrcard:last-child {
+    margin-bottom: 0px;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcard .Agda-spkrimg {
+    flex-shrink: 0;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcard .Agda-spkrimg img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcard .Agda-spkrdetail p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: rgb(88 89 91);
+    font-family: var(--font-Montserrat);
+}
+
+.Agenda-Section .Agenda-card .Agda-spkrcard .Agda-spkrdetail p:last-child {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+/*--------------------------------------------------------------
+    End Agenda Page Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  Become Sponsor Page
+--------------------------------------------------------------*/
+
+/* ------ Become Sponsor Section ------ */
+.BecomeSpnr-Section {
+    background: #ECF0F3;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont {
+    position: relative;
+    z-index: 5;
+    padding: 30px 0px;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-stroketext {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -7%);
+    z-index: -1;
+    user-select: none;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-stroketext h1 {
+    font-size: 110px;
+    font-weight: 700;
+    line-height: .85;
+    letter-spacing: -.02em;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #D6D6D6;
+    font-family: var(--font-Poppins);
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-animateimg .BecSpnr-leftimg {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    opacity: 0.5;
+    -webkit-animation: BecSpnr-leftimg 2s linear infinite alternate;
+    animation: BecSpnr-leftimg 2s linear infinite alternate;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-animateimg .BecSpnr-rightimg {
+    position: absolute;
+    top: 0px;
+    right: -110px;
+    opacity: 0.5;
+    -webkit-animation: BecSpnr-rightimg 2s linear infinite alternate;
+    animation: BecSpnr-rightimg 2s linear infinite alternate;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-animateimg .BecSpnr-crossimg {
+    position: absolute;
+    top: 100px;
+    right: 140px;
+    width: 30px;
+    height: 30px;
+    animation: Vector-Spin 2s linear infinite;
+}
+
+@keyframes BecSpnr-leftimg {
+    0% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes BecSpnr-rightimg {
+    0% {
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-tagtitle p {
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--color-darkyellow);
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: var(--font-Poppins);
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--color-main-heading);
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: var(--font-Poppins);
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-title h1 .BecSpnr-hgltitle {
+    display: block;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-title h1 .BecSpnr-hgltitle span {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--color-transparent);
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-btn a {
+    min-width: initial;
+    max-width: 200px;
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+}
+
+/* ------ Benefit Section ------ */
+.Benefit-Section {
+    background: url(../../image/Banners/SubPage-Banner.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 5;
+}
+
+.Benefit-Section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000000;
+    opacity: .85;
+}
+
+.Benefit-Section .row {
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.Benefit-Section .Benefit-cont,
+.Benefit-Section .Benefit-img {
+    position: relative;
+    z-index: 10;
+}
+
+.Benefit-Section .Benefit-cont .Section-title h1 {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--color-transparent);
+    text-align: left;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding: 28px 10px 28px 0px;
+    border-bottom: 1px solid #FFFFFF3D;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard:last-child {
+    border: none;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: var(--color-white);
+    flex-shrink: 0;
+    transition: all 400ms ease;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard:hover .Bnftlist-icon {
+    transform: rotateY(180deg);
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-icon i {
+    font-size: 30px;
+    color: var(--color-navy-blue);
+    text-align: center;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-text p {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--color-white);
+    margin: 0px;
+}
+
+.Benefit-Section .Benefit-cont .Benefit-btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0px 0px 10px;
+}
+
+.Benefit-Section .Benefit-img {
+    display: flex;
+    position: relative;
+}
+
+.Benefit-Section .Benefit-img img {
+    width: 88%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: auto;
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn {
+    position: absolute;
+    top: 47%;
+    left: 54%;
+    transform: translate(-47%, -54%);
+    width: auto;
+    z-index: 5;
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate {
+    position: relative;
+    z-index: 0;
+    width: 90px;
+    height: 90px;
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    color: var(--color-navy-blue);
+    background-color: var(--color-white);
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    border-radius: 50%;
+    color: var(--color-white);
+    transition: all 0.4s ease 0s;
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon::before,
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 73px;
+    width: 73px;
+    z-index: 8;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -webkit-animation: Video-btn-animate 3s infinite;
+    animation: Video-btn-animate 1.5s ease-in infinite forwards;
+    animation-delay: 0.9s;
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon::after {
+    animation-delay: 0.6s;
+}
+
+@keyframes Video-btn-animate {
+    70% {
+        -webkit-box-shadow: 0 0 0 50px rgba(233, 35, 47, 0);
+        box-shadow: 0 0 0 50px rgba(233, 35, 47, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(233, 35, 47, 0);
+        box-shadow: 0 0 0 0 rgba(233, 35, 47, 0);
+    }
+}
+
+.Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon i {
+    color: var(--color-navy-blue);
+    font-size: 21px;
+}
+
+.Benefit-Section .Bnft-counter .row {
+    row-gap: 40px;
+}
+
+.Benefit-Section .Bnft-counter .Bnft-reitems {
+    width: 20%;
+}
+
+.Benefit-Section .Bnft-counter .Bnft-counterbox {
+    width: 100%;
+    position: relative;
+}
+
+.Benefit-Section .Bnft-counter .Bnft-counterbox .Bnft-counterimg {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    margin: 0px auto 20px;
+}
+
+.Benefit-Section .Bnft-counter .Bnft-counterbox .Bnft-counterimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Benefit-Section .Bnft-counter .Bnft-counterbox h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-darkyellow);
+    text-align: center;
+    font-family: var(--font-poppins);
+    -webkit-text-stroke: 2px var(--color-darkyellow);
+    color: transparent;
+}
+
+.Benefit-Section .Bnft-counter .Bnft-counterbox p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: var(--color-white);
+    text-align: center;
+    margin: 0px;
+}
+
+/* ------ Form Section ------ */
+.hform-section {
+    background-color: #fff;
+    position: relative;
+}
+
+.hform-section .Section-title h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.hform-section .Section-title p {
+    color: #000;
+    font-size: 17px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    font-family: var(--font-Inter);
+}
+
+.hform-section .spot-form {
+    border: 2px solid #152151;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* ------ Attendee Section ------ */
+.Attended-Section {
+    background: var(--color-black);
+}
+
+.Attended-Section .row {
+    justify-content: center;
+    align-items: center;
+    gap: 10px 0px;
+    margin-top: 30px;
+}
+
+.Attended-Section .Section-title h1 {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--color-transparent);
+}
+
+.Attended-Section .BS-Sponsor-Image {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.Attended-Section .BS-Sponsor-Image img {
+    max-width: 160px;
+    width: 100%;
+    max-height: 70px;
+    object-fit: contain;
+    transition: 0.4s;
+    transform: scale(.85);
+}
+
+.Attended-Section .BS-Sponsor-Image img.BSpnr-alterimg {
+    max-width: 200px;
+}
+
+/*--------------------------------------------------------------
+   End Become Sponsor Page
+ --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    Event App Page
+--------------------------------------------------------------*/
+
+.Section-sub-heading {
+    font-size: 44px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    position: relative;
+    width: 100%;
+    font-family: var(--font-Poppins);
+}
+
+.event-section1 .Section-sub-heading span {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    padding-left: 30px;
+    -webkit-text-fill-color: var(--color-white);
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+.event-section1 .Section-sub-heading span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: var(--color-yellow);
+    display: inline-block;
+}
+
+.event-box1-l p {
+    font-family: var(--font-Inter);
+    color: var(--color-white)
+}
+
+.event-box1-l li {
+    color: var(--color-text);
+    font-family: var(--font-Inter);
+    color: var(--color-white);
+    display: flex;
+    align-items: start;
+}
+
+.event-box1-l ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.event-box1-l ul li i {
+    font-weight: 900;
+    font-size: 17px;
+    color: var(--color-yellow);
+    margin-right: 10px;
+}
+
+.event-box1-l .fa-solid::before {
+    vertical-align: sub;
+}
+
+.event-box1-l h3 {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--color-transparent);
+    max-width: 85%;
+}
+
+.event-soc-icon a img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.event-section1-inner {
+    background: url(../../image/Event-app/Event-bg.png) no-repeat left / cover;
+}
+
+.event-box1-l {
+    max-width: 55%;
+}
+
+.event-box1-r {
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-soc-icon {
+    margin-top: 10px;
+}
+
+.event-box1-r img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.event-section1 {
+    background-color: var(--color-black);
+}
+
+.or {
+    width: 160px;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------
+    End Event App Page
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  FAQ Page
+--------------------------------------------------------------*/
+
+.Faq-Section {
+    background: var(--color-black);
+}
+
+.Faq-Section .accordion-item button {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Faq-Section .Faq-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* .Faq-Section .accordion-item {
+    margin-bottom: 20px;
+} */
+
+.Faq-Section .accordion-button {
+    color: var(--color-white);
+    font-weight: 500;
+    padding: 25px;
+    font-size: 18px;
+    font-family: var(--font-Poppins);
+    background: var(--color-black);
+    box-shadow: none;
+    border-bottom: 1px solid;
+}
+
+.Faq-Section .accordion-item .accordion-body {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.Faq-Section .accordion-item .accordion-body p {
+    color: var(--color-white);
+    font-family: var(--font-Inter);
+}
+
+.Faq-Section .accordion-item p.Sub-Title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: var(--color-orange);
+}
+
+.Faq-Section .accordion-item p b.Sub-Title {
+    color: var(--color-orange);
+}
+
+.Faq-Section .accordion-button::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: var(--color-darkyellow);
+    border-radius: 50%;
+    font-size: 12px;
+    color: var(--color-white);
+    transition: .5s all;
+}
+
+.Faq-Section .accordion-button:not(.collapsed)::after {
+    background-image: none;
+
+}
+
+.Faq-Section .accordion {
+    --bs-accordion-btn-focus-box-shadow: none;
+
+}
+
+/*--------------------------------------------------------------
+  End FAQ Page
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+   Media Query
+--------------------------------------------------------------*/
+/*-------------------------------
+   Laptop to Tablet View
+---------------------------------*/
+
+/*-----------  max-width: 992px  -----------*/
+@media (max-width: 992px) {
+
+    /*--------------------------------------------------------------
+       Agenda Page
+    --------------------------------------------------------------*/
+
+    .Agenda-Section .Agenda-card .Agda-spkrcontent {
+        width: 100%;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-schedule {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px 0px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-schedule .Agda-content {
+        padding-right: 0px;
+        margin-right: 0px;
+        border-right: none;
+    }
+
+    /*--------------------------------------------------------------
+       End Agenda Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Become Sponsor Page
+    --------------------------------------------------------------*/
+
+    /* ------ Become Sponsor Section ------ */
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-stroketext h1 {
+        font-size: 70px;
+    }
+
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-tagtitle p {
+        font-size: 20px;
+    }
+
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-title h1 {
+        font-size: 40px;
+    }
+
+    /* ------ Benefit Section ------ */
+    .Benefit-Section .Bnft-counter .Bnft-reitems {
+        width: 33.33333333%;
+    }
+
+    /*--------------------------------------------------------------
+       End Become Sponsor Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Event App Page
+    --------------------------------------------------------------*/
+    .Section-sub-heading {
+        font-size: 35px;
+    }
+
+    .event-section1-inner {
+        margin-bottom: 0;
+    }
+
+    .event-box1 {
+        max-width: 100% !important;
+    }
+
+    .event-box1-r img {
+        height: auto;
+    }
+
+    .event-section1-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*--------------------------------------------------------------
+       End Event App Page
+    --------------------------------------------------------------*/
+}
+
+/*-------------------------------
+   End Laptop to Tablet View
+---------------------------------*/
+
+/*-------------------------------
+   Tablet View
+---------------------------------*/
+@media (max-width: 768px) {
+
+    /*--------------------------------------------------------------
+       SubPage Banner
+    --------------------------------------------------------------*/
+    .SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-title h2 {
+        font-size: 40px;
+    }
+
+    /*--------------------------------------------------------------
+       End SubPage Banner 
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Agenda Page
+    --------------------------------------------------------------*/
+    .Agenda-Section .Agenda-card .Agda-content .Agda-title h3 {
+        font-size: 20px;
+    }
+
+    /*--------------------------------------------------------------
+       End Agenda Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Become Sponsor Page
+    --------------------------------------------------------------*/
+
+    /* ------ Benefit Section ------ */
+    .Benefit-Section .Bnft-counter .Bnft-counterbox h1 {
+        font-size: 40px;
+        -webkit-text-stroke: 1px var(--color-darkyellow);
+    }
+
+    /* ------ Form Section ------ */
+    .hform-section .Section-title h1 {
+        font-size: 30px;
+    }
+
+    /*--------------------------------------------------------------
+       End Become Sponsor Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Event App Page
+    --------------------------------------------------------------*/
+
+    .event-box1-l,
+    .event-box1-r {
+        max-width: 100%;
+    }
+
+    .event-box1-l h3 {
+        max-width: 100%;
+    }
+
+    .event-box1-r img {
+        max-width: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*--------------------------------------------------------------
+       End Event App Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       FAQ Page
+    --------------------------------------------------------------*/
+    .Faq-Section .accordion-button {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .Faq-Section .accordion-item .accordion-body p {
+        line-height: 1.8;
+        margin: 0px 10px;
+    }
+    /*--------------------------------------------------------------
+       End FAQ Page
+    --------------------------------------------------------------*/
+}
+
+/*-------------------------------
+   End Tablet View
+---------------------------------*/
+
+/*-------------------------------
+   Mobile View
+---------------------------------*/
+@media (max-width: 576px) {
+
+    /*--------------------------------------------------------------
+       SubPage Banner
+    --------------------------------------------------------------*/
+    .SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-title h2 {
+        font-size: 30px;
+    }
+
+    .SubPageBnr-Section .SubPageBnr-cont .SubPageBnr-menu li {
+        font-size: 14px;
+    }
+
+    /*--------------------------------------------------------------
+       End SubPage Banner 
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Agenda Page
+    --------------------------------------------------------------*/
+    .AgendaPage-Section .Day-Tabs .nav-item button {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-schedule {
+        padding: 30px 25px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-content .Adga-session {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-content .Agda-datetime {
+        flex-direction: column;
+        align-items: start;
+        padding: 5px 20px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date:not(:last-child)::before {
+        display: none;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date .Adga-date-text {
+        font-size: 13px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-content .Agda-datetime .Adga-date i {
+        font-size: 13px;
+    }
+
+    .Agenda-Section .Agenda-card .Agda-content .Agda-title h3 {
+        font-size: 18px;
+    }
+
+    /*--------------------------------------------------------------
+       End Agenda Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Become Sponsor Page
+    --------------------------------------------------------------*/
+    /* ------ Become Sponsor Section ------ */
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-stroketext h1 {
+        font-size: 45px;
+    }
+
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-animateimg .BecSpnr-leftimg {
+        left: -70px;
+    }
+
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecSpnr-animateimg .BecSpnr-rightimg {
+        right: -180px;
+    }
+
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-tagtitle p {
+        font-size: 18px;
+    }
+
+    .BecomeSpnr-Section .BecomeSpnr-cont .BecomeSpnr-title h1 {
+        font-size: 30px;
+    }
+
+    /* ------ Benefit Section ------ */
+    .Benefit-Section {
+        padding: 70px 0px;
+    }
+
+    .Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-icon i {
+        font-size: 25px;
+    }
+
+    .Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate,
+    .Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon::before,
+    .Benefit-Section .Benefit-img .Bnft-videobtn .Bnft-vidanimate .Bnft-vidbtnicon::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Benefit-Section .Benefit-cont .Benefit-list .Bnft-listcard .Bnftlist-text p {
+        font-size: 18px;
+    }
+
+    .Benefit-Section .Bnft-counter .Bnft-reitems {
+        width: 50%;
+    }
+
+    .Benefit-Section .Bnft-counter .Bnft-counterbox .Bnft-counterimg {
+        width: 55px;
+        height: 55px;
+    }
+
+    .Benefit-Section .Bnft-counter .Bnft-counterbox h1 {
+        font-size: 35px;
+    }
+
+    .Benefit-Section .Bnft-counter .Bnft-counterbox p {
+        font-size: 16px;
+    }
+
+    /*--------------------------------------------------------------
+       End Become Sponsor Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       Event App Page
+    --------------------------------------------------------------*/
+    .Section-sub-heading {
+        font-size: 30px;
+    }
+
+    .event-soc-icon a img {
+        max-width: 132px;
+    }
+
+    .or {
+        width: 132px;
+    }
+
+    .event-section1-inner {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    /*--------------------------------------------------------------
+       End Event App Page
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+       FAQ Page
+    --------------------------------------------------------------*/
+    .Faq-Section .accordion-button {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .Faq-Section .accordion-item .Sub-Title {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .Faq-Section .accordion-item .accordion-body {
+        padding: 0px;
+    }
+
+    .Faq-Section .accordion-item .accordion-body p {
+        font-size: 12px;
+        line-height: 1.8;
+        margin: 0px 10px;
+        padding: 0px 0px 10px;
+    }
+
+    /*--------------------------------------------------------------
+       End FAQ Page
+    --------------------------------------------------------------*/
+}
+
+/*-------------------------------
+   End Mobile View
+---------------------------------*/
+
+/*--------------------------------------------------------------
+   End Media Query
+--------------------------------------------------------------*/
