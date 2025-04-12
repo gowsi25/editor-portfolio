@@ -321,7 +321,7 @@ a {
 
 .profile-img {
   width: 100%;
-  height: 843px;
+  height: 100%;
 }
 
 .profile-img img {
@@ -337,6 +337,7 @@ a {
 .profile-para h5 {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight: 800;
 }
 
 .profile-para h5::before {
@@ -352,7 +353,7 @@ a {
   width: 300px;
   margin-left: 25%;
   font-size: 25px;
-  font-weight: 800;
+  font-weight:400;
 }
 
 /* work */
@@ -451,9 +452,18 @@ a {
    .video-frame {
     width: auto;
   }
+ 
 }
 
 @media (max-width: 992px) {
+  /* home */
+  .home-port {
+    width: auto;
+    height: auto;
+  }
+  .profile-card{
+    margin-left: 0px;
+  }
   .profile-para h5::before {
     width: 40%;
   }
